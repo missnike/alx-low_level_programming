@@ -10,8 +10,8 @@ int main(void)
 	int i;
 	float f;
 	char c;
-	long g;
-	long long e;
+	long int g;
+	long long int e;
 
 	printf("Size of a char: %lu(s).\n", (unsigned long)sizeof(c));
 	printf("Size of an int:%lu(s).\n", (unsigned long)sizeof(i));
