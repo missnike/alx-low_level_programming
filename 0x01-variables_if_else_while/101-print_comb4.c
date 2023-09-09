@@ -16,10 +16,11 @@ int main(void)
 
 		for (digit3 = digit2 + 1; digit2 < 9; digit3++)
 		{
-
-		putchar((digit1 % 10) + '0');
-		putchar((digit2 % 10) + '0');
-		putchar((digit3 % 10) + '0');
+		if((p !=d) != q)
+		{
+		putchar(digit1)
+		putchar(digit2)
+		putchar(digit3)
 
 		if (digit1 == 7 && digit2 == 8)
 		continue;
