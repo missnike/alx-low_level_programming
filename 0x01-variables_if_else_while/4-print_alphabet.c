@@ -1,0 +1,20 @@
+#include <stdio.h>
+/**
+ * main - the main entry
+ *
+ * Return: always return zero
+ */
+int main(void)
+{
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+	if (letter != 'e' && letter != 'q')
+	putchar(letter);
+	}
+
+	putchar('\n');
+	return (0);
+
+}
