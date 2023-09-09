@@ -16,7 +16,7 @@ int main(void)
 
 		for (digit3 = digit2 + 1; digit2 < 9; digit3++)
 		{
-		if((p !=d) != q)
+		if((digit1 !=digit2) != digit)
 		{
 		putchar(digit1)
 		putchar(digit2)
