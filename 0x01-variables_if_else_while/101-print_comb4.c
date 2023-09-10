@@ -20,9 +20,9 @@ int main(void)
 						putchar(num2);
 						putchar(num3);
 
-					if (num1 == 6 && num2 == 8 && num3 == 9)
-						continue;
+					if (num1 == 7 && num2 == 8 && num3 == 9)
 
+				continue;
 				putchar(',');
 				putchar(' ');
 					}
