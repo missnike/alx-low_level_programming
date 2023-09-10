@@ -12,7 +12,7 @@ int main(void)
 		{
 			for (num2 = num1 + 1; num2 <= '8'; num2++)
 			{
-				for (num3 = num2 + 2; num3 <= '9'; num3++)
+				for (num3 = num2 + 1; num3 <= '9'; num3++)
 				{
 					if (num2 != num1 && num3 != num2 && num3 != num1)
 					{
