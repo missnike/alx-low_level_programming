@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
  * print_alphabet - to print all lower case number
  *
@@ -8,15 +7,12 @@
  */
 void print_alphabet(void)
 {
-	int letter;
+	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-	{
+	
 	_putchar(letter);
-	}
 
-	_putchar("\n");
-
-	return (0);
+	_putchar('\n');
 
 }
