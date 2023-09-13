@@ -6,7 +6,7 @@
  * Return : Always 0
  */
 void print_to_98(int n)
-{
+{i
 	if (n <= 98)
 	{
 	for (; n <= 98; n++)
@@ -19,7 +19,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-	printf("%d,", n);
+	printf("%d, ", n);
 	}
 	}
 	}
@@ -35,7 +35,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-	printf("%d,", n);
+	printf("%d, ", n);
 	}
 	}
 	}
