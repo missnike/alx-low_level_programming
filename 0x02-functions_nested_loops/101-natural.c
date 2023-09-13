@@ -8,6 +8,8 @@
 */
 int main(void)
 {
+	int n;
+
 	print_tomes_table(3);
 	_putchar('\n');
 	print_tomes_table(5);
