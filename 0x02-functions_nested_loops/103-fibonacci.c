@@ -1,26 +1,28 @@
 #include <stdio.h>
+
+
 /**
- * main - main entry
- *
- * Return: always return 0
- */
+* main - the main printing funtion
+* less than 4000000.
+* Return: 0.
+*/
 int main(void)
 {
-	int i; unsigned log int j, k, next, sum;
+	int i = 0;
+	long j = 1, k = 2, sum = k;
 
-	j = 1;
-	k = 2;
-	sum = 0;
+	while (k + j < 4000000)
+	{
+	k += j;
 
-	for (i = 1; i <= 33; ++i)
-	{
-	if (j < 4000000 && (j % 2) == 0)
-	{
-	sum = sum + j;
+	if (k % 2 == 0)
+	sum += k;
+	j = k - j;
+	++i;
+
 	}
-	next = j + k;
-	k = next;
-	}
-	printf("%lu\n", sum);
+
+	printf("%ld", sum);
 	return (0);
+
 }
