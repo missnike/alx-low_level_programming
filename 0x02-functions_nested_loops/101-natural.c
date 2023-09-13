@@ -15,7 +15,4 @@ void print_tomes_table(int n)
 	print_tomes_table(98);
 	_putchar('\n');
 	print_tomes_table(12);
-
-	return (0);
-
 }
