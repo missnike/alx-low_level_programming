@@ -6,7 +6,7 @@
 *@n: to print out numbers
 * Return: Always 0.
 */
-void print_tomes_table(int n);
+void print_tomes_table(int n)
 {
 	print_tomes_table(3);
 	_putchar('\n');
