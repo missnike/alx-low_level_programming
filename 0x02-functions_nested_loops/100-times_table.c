@@ -8,7 +8,7 @@
 */
 void print_tomes_table(int n)
 {
-	int n;
+	int;
 
 	print_tomes_table(3);
 	_putchar('\n');
