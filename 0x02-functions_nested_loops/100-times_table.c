@@ -6,8 +6,10 @@
 *
 * Return: Always 0.
 */
-int main(void)
+void print_tomes_table(int n)
 {
+	int n;
+
 	print_tomes_table(3);
 	_putchar('\n');
 	print_tomes_table(5);
