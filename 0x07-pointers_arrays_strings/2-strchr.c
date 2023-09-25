@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strchr - the function that points to the first
+ * _strchr - points to the first
  * character of another string in a string
  *
  * @s: the first string
  * @c: the character to search for in the first string
- * Return: NULL if not found or th character if found.
+ * Return: NULL if not found or th character if found
  */
 char *_strchr(char *s, char c)
 {
@@ -19,5 +19,5 @@ char *_strchr(char *s, char c)
 	s++;
 	}
 	return (NULL);
-}
 
+}
