@@ -6,7 +6,7 @@
  *
  * @s: the first string
  * @c: the character to search for in the first string
- * Return: NULL if not found or th character if found
+ * Return: NULL
  */
 char *_strchr(char *s, char c)
 {
