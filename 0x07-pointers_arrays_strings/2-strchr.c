@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stddef.h>
+#include <stdio.h>
 /**
  * _strchr - the function that points to the first
  * character of another string in a string
