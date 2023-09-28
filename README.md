@@ -1,1 +1,1 @@
-Just starting to write my C programme
+More on declerations and functions in C programming
