@@ -18,27 +18,15 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 		str = va_arg(mention, char*);
 		if (separator)
-		{
 		if (!str)
-		{
 		printf("(nill)%s", separator);
-		}
 		else
-		{
 		printf("%s%s", str, separator);
-		}
-		}
 		else
-		{
 		if (!str)
-		{
 		printf("(nill)");
-		}
 		else
-		{
 		printf("%s", str);
-		}
-		}
 		}
 		printf("%s", va_arg(mention, char *));
 		va_end(mention);
