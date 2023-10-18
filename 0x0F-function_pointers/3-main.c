@@ -7,20 +7,19 @@
 */
 int main(int argc, char *argv[])
 {
-	int i, num1, num2;
+	int num1, num2;
 	char *op;
 
 	if (argc != 4)
 	{
+		printf("Error\n");
 		exit(98);
 	}
-	i = 0;
-
-	num1 = atoi(argv[i]);
+	num1 = atoi(argv[1]);
 	op = argv[2];
 	num2 = atoi(argv[3]);
 
-	if (get_op_func(op) == NULL || op[i] != '\0')
+	if (get_op_func(op) == NULL || op[2] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
