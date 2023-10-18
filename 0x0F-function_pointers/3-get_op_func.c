@@ -1,10 +1,11 @@
 #include "3-calc.h"
 /**
- * get_op_func - This function returns a pointer to the function that correspond
- * to the operator given as a parameter. Example: get_op_func("+") should return
+ * get_op_func - This function returns a
+ * pointer to the function that correspond
+ * to the operator given as a parameter.
+ * Example: get_op_func("+") should return
  * a pointer to the function op_add.
  * @s: pointer that returns to the function
- * 
  * Return: return an int
  */
 int (*get_op_func(char *s))(int, int)
