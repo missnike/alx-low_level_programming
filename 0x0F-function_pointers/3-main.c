@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	op = argv[2];
 	num2 = atoi(argv[3]);
 
-	if (get_op_func(op) == NULL || op[2] != '\0')
+	if (!get_op_func(op))
 	{
 		printf("Error\n");
 		exit(99);
@@ -30,6 +30,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(100);
 	}
-	printf("%d\n", get_op_func(op)(num1, num2));
+	printf("%d\n", get_op_func(argv[2])(num1, num2));
 	return (0);
 }
